@@ -39,7 +39,7 @@ const ClientLogos = () => {
   return <section className="py-16 bg-white relative">
       <div className="container mx-auto">
         <div className="max-w-3xl mx-auto mb-12 text-center">
-          <h2 className="text-2xl font-bold mb-4 animate-fade-in md:text-7xl mx-[74px] py-0 my-[51px] px-0">
+          <h2 className="text-2xl font-bold mb-4 animate-fade-in md:text-7xl py-0 my-[51px] px-[4px] mx-[240px]">
             Trusted by CFOs, treasurers &<br />board members at over 100 global companies
           </h2>
         </div>
