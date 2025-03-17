@@ -94,7 +94,7 @@ const PriceEditor: React.FC<PriceEditorProps> = ({ onSave, initialPrices, onCanc
             id="light-price" 
             value={prices.light.replace("€", "")}
             onChange={(e) => setPrices(prev => ({ ...prev, light: `€${e.target.value}` }))}
-            placeholder="290"
+            placeholder="199"
           />
         </div>
         
@@ -104,7 +104,7 @@ const PriceEditor: React.FC<PriceEditorProps> = ({ onSave, initialPrices, onCanc
             id="standard-price" 
             value={prices.standard.replace("€", "")}
             onChange={(e) => setPrices(prev => ({ ...prev, standard: `€${e.target.value}` }))}
-            placeholder="590"
+            placeholder="499"
           />
         </div>
         
@@ -114,7 +114,7 @@ const PriceEditor: React.FC<PriceEditorProps> = ({ onSave, initialPrices, onCanc
             id="premium-price" 
             value={prices.premium.replace("€", "")}
             onChange={(e) => setPrices(prev => ({ ...prev, premium: `€${e.target.value}` }))}
-            placeholder="1290"
+            placeholder="999"
           />
         </div>
         
