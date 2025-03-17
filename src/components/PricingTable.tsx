@@ -7,9 +7,9 @@ const PricingTable = () => {
   const [isAnnual, setIsAnnual] = useState(true);
   const [showPriceEditor, setShowPriceEditor] = useState(false);
   const [customPrices, setCustomPrices] = useState<PricingData>({
-    light: "€290",
-    standard: "€590",
-    premium: "€1290",
+    light: "€200",
+    standard: "€500",
+    premium: "€1000",
     isAdmin: false
   });
 
