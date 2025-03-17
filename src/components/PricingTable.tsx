@@ -21,7 +21,7 @@ const PricingTable = () => {
     },
     {
       name: "Light",
-      price: "€290",
+      price: "€199",
       description: "Essential FX tools for small businesses",
       features: [
         "Introduction video",
@@ -39,7 +39,7 @@ const PricingTable = () => {
     },
     {
       name: "Standard",
-      price: "€590",
+      price: "€499",
       description: "Complete FX toolkit for growing companies",
       features: [
         "Introduction video",
@@ -62,7 +62,7 @@ const PricingTable = () => {
     },
     {
       name: "Premium",
-      price: "€1290",
+      price: "€999",
       description: "Advanced FX management for enterprise",
       features: [
         "Introduction video",
