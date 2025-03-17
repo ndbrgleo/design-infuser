@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
@@ -22,7 +21,7 @@ const PricingTable = () => {
     },
     {
       name: "Light",
-      price: "€199",
+      price: "€290",
       description: "Essential FX tools for small businesses",
       features: [
         "Introduction video",
@@ -40,7 +39,7 @@ const PricingTable = () => {
     },
     {
       name: "Standard",
-      price: "€499",
+      price: "€590",
       description: "Complete FX toolkit for growing companies",
       features: [
         "Introduction video",
@@ -63,7 +62,7 @@ const PricingTable = () => {
     },
     {
       name: "Premium",
-      price: "€999",
+      price: "€1290",
       description: "Advanced FX management for enterprise",
       features: [
         "Introduction video",
@@ -194,9 +193,9 @@ const PricingTable = () => {
                 <tr>
                   <td>Price per month</td>
                   <td>€0</td>
-                  <td>€199</td>
-                  <td className="featured-column">€499</td>
-                  <td>€999</td>
+                  <td>€290</td>
+                  <td className="featured-column">€590</td>
+                  <td>€1290</td>
                 </tr>
                 <tr>
                   <td>Introduction video</td>
