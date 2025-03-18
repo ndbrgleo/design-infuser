@@ -23,7 +23,7 @@ const ClientLogos = () => {
   // Generate placeholder logos with different shades
   const logos = [
     { name: "Power", src: "/logos/power.png" },
-    { name: "Bilia", src: "/logos/bilia.png" },
+    { name: "Bilia", src: "/logos/bilia.webp" },
     { name: "Komplett", src: "/logos/Komplett.png" },
     { name: "Atea", src: "/logos/atea.png" },
     { name: "SalMar", src: "/logos/SalMar.png" },
@@ -61,14 +61,12 @@ const ClientLogos = () => {
                 className="flex-shrink-0 flex items-center justify-center h-24 min-w-[200px] px-8 animate-fade-in premium-hover"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div
-                  className="w-full h-full rounded-lg flex items-center justify-center"
-                  style={{ backgroundColor: `${logo.color}10` }}
-                >
-                  <span className="font-bold text-lg" style={{ color: logo.color }}>
-                    {logo.name}
-                  </span>
-                </div>
+                {/* Replace placeholder with actual images */}
+                <img
+                  src={logo.src}
+                  alt={logo.name}
+                  className="h-16 w-auto object-contain"
+                />
               </div>
             ))}
             <div className="pr-16"></div> {/* Spacer for right control */}
