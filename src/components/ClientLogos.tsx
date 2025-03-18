@@ -22,12 +22,12 @@ const ClientLogos = () => {
 
   // Generate placeholder logos with different shades
   const logos = [
-    { name: "Mills", color: "#e85d04" },
-    { name: "Hyundai", color: "#1a759f" },
-    { name: "Deloitte", color: "#1e1e1e" },
-    { name: "Sirend", color: "#1e3a8a" },
-    { name: "Microsoft", color: "#107c10" },
-    { name: "Adobe", color: "#ff0000" },
+    { name: "Power", src: "/logos/power.png" },
+    { name: "Bilia", src: "/logos/bilia.png" },
+    { name: "Komplett", src: "/logos/Komplett.png" },
+    { name: "Atea", src: "/logos/atea.png" },
+    { name: "SalMar", src: "/logos/SalMar.png" },
+    { name: "Norwegian Air", src: "/logos/Norwegian.png" },
   ];
 
   return (
